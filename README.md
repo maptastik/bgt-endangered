@@ -1,4 +1,4 @@
-# Blue Grass Trust Endangered Map App
+# Blue Grass Trust Endangered Properties Map App
 
 This project serves a few purposes:
 
