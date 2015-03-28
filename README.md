@@ -31,6 +31,10 @@ Peter Brackney, [*Before the Vice-Presidency, Richard M. Johnson Started the Ind
 
 Peter Brackney, [*"Court Row" now considered eleventh-hour historic site*](http://www.centralkynews.com/jessaminejournal/opinion/court-row-now-considered-eleventh-hour-historic-site/article_b723f472-c2a6-11e4-8b14-83a5db6d1529.html), *The Jessamine Journal*, March 4, 2015.
 
+#### *The Handy House* - Harrison County
+
+[Friends of Ridgeway](http://www.friendsofridgeway.org/)
+
 #### *People's Bank Building* - Fayette County
 
 John M. Shotwell, [*Letter to the Editor: Architectural junk food*](http://www.kentucky.com/2015/03/16/3749554/letters-to-the-editor-march-16.html), *Lexington Herald-Leader*, March 16, 2015.
