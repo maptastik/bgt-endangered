@@ -21,6 +21,10 @@ John Cheves, [*Bluegrass Trust releases 2015 list of endangered properties*](htt
 
 [*National Register of Historic Places Inventory - Nomination Form*](http://pdfhost.focus.nps.gov/docs/NRHP/Text/75000757.pdf), March 1975.
 
+#### *Cedar Grove* - Bourbon County
+
+[Historic Brooklawn Farm Facebook Page](https://www.facebook.com/HistoricBrooklawnFarm/info)
+
 #### *Chocktaw Indian Academy* - Scott County
 
 Peter Brackney, [*No Destination: Choctaw Indian Academy*](http://www.kaintuckeean.com/2010/07/no-destination-choctaw-indian-academy.html), *Kaintuckeean*, July 2010.
