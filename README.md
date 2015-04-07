@@ -42,3 +42,7 @@ Peter Brackney, [*"Court Row" now considered eleventh-hour historic site*](http:
 #### *People's Bank Building* - Fayette County
 
 John M. Shotwell, [*Letter to the Editor: Architectural junk food*](http://www.kentucky.com/2015/03/16/3749554/letters-to-the-editor-march-16.html), *Lexington Herald-Leader*, March 16, 2015.
+
+#### *Walnut Hall* - Mercer County
+
+[*Harrodsburg & Mercer County: Walking & Driving Tour*](https://nebula.wsimg.com/4e7a086ab5d84f2b1b45c5e599e6b4ab?AccessKeyId=2102D246FF855A25AAC1&disposition=0&alloworigin=1)
