@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700);
+
+body, * {
+	padding: 0;
+	margin: 0;
+}
+body, html, #map {
+	font-family: 'Roboto', sans-serif;
+	height: 100%
+}
+
+.key {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+}
+
+h1 {
+	font-weight: 700;
+}
+.subtitle {
+	margin-top: 0;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	font-weight: normal;
+}
+p.note{
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	font-size: 0.5em;
+}
+
+hr.top, hr.bottom {
+	height: 12px;
+    	border: 0;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+}
+hr.top {
+	-webkit-box-shadow: inset 0 -12px 12px -12px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 -12px 12px -12px rgba(0,0,0,0.5);
+   	box-shadow: inset 0 -12px 12px -12px rgba(0,0,0,0.5);
+}
+hr.bottom {
+	-webkit-box-shadow: inset 0 -12px 12px -12px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 -12px 12px -12px rgba(0,0,0,0.5);
+    	box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+
+#accordion>h3 {
+	font-size: 0.85em;
+}
+.accordion-county {
+	font-size: 0.75em;
+	font-style: italic;
+}
+.ui-state-default, .ui-widget-content {
+	border: 0;
+	background: none;
+}
+.ui-accordion .ui-accordion-content {
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.ui-accordion .ui-accordion-header {
+	padding-left: 0;
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+	padding-right: 0;
+	cursor: default;
+}
+#accordion>div>p {
+	font-size: 0.5em;
+	font-weight: normal;
+}
+
+.text-center {
+	text-align: center;
+}
+.ul-none {
+	list-style-type: none;
+}
+
+dl {
+ width:100%;
+ overflow:hidden;
+ margin-bottom: 10px;
+/* background:#ff0;
+*/}
+dt {
+ float:left;
+ width:50%; /* adjust the width; make sure the total of both is 100% */
+/* background:#cc0;
+*/
+margin-top: 3px;
+}
+dd {
+ float:left;
+ width:50%; /* adjust the width; make sure the total of both is 100% */
+/* background:#dd0
+*/
+font-style: italic;
+margin-top: 3px;
+}
