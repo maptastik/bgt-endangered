@@ -4,7 +4,7 @@ body, * {
 	padding: 0;
 	margin: 0;
 }
-body, html, #map {
+body, html, #map, #accordion {
 	font-family: 'Roboto', sans-serif;
 	height: 100%
 }
@@ -38,6 +38,7 @@ p {
 	margin-bottom: 10px;
 	font-size: 1em;
 	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
 }
 p.note{
 	margin-top: 2.5px;
@@ -63,7 +64,6 @@ hr.bottom {
     	box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
 }
 
-
 #accordion>h3 {
 	font-size: 0.85em;
 }
@@ -88,9 +88,36 @@ hr.bottom {
 	padding-right: 0;
 	cursor: default;
 }
-#accordion>div>p {
+
+.accordion-fig-box {
+	border: 1px solid black;
+	padding: 3px;
+}
+.accordion-img {
+	width: 100%;
+}
+
+.accordion-img-caption {
 	font-size: 0.5em;
 	font-weight: normal;
+	margin-top: -3px;
+	margin-bottom: 0;
+}
+.accordion-text {
+	font-size: 0.5em;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.accordion-list-head {
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.65em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+.accordion-list>li:before{
+	content: '- '
 }
 
 .text-center {

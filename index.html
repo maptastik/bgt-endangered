@@ -20,7 +20,10 @@
         $( "#accordion" ).accordion({
           collapsible: true,
           active: false,
-          icons: null
+          icons: null,
+          heightStyle: "content",
+          autoHeight: false,
+          clearStyle: true
         });
       });
     </script>
@@ -44,62 +47,243 @@
                 <h3 class="subtitle"><em>Eleven* in their Eleventh Hour</em><h3>
                 <p class="note">*This list contains 13 distinct locations in 11 counties<p>
                 <div id="accordion">
-                      <h3><a href='' data-zoom='18' data-position='38.137791,-84.298698'>Cedar Grove<br><span class="accordion-county">Bourbon County</span></a><hr class="top"></h3>
 
-                      <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p><hr class="bottom">
+                      <!-- Cedar Grove -->
+                      <h3><a href='' data-zoom='18' data-position='38.137791,-84.298698'>Cedar Grove<br><span class="accordion-county">Bourbon County</span></a><hr class="top"></h3>
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">                      
                       </div>
+
+                      <!-- Redmon House -->
                       <h3><a href='' data-zoom='18' data-position='38.282476,-84.241454'>John &amp; John T. Redmon House<br><span class="accordion-county">Bourbon County</span></a><hr class="top"></h3>
-                      <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">                        
                       </div>
+
+                      <!-- Citizens National Bank -->
                       <h3><a href='' data-zoom='18' data-position='37.646047,-84.772779'>Citizens National Bank<br><span class="accordion-county">Boyle County</span></a><hr class="top"></h3>
-                      <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">                       
                       </div>
+
+                      <!-- Polk House -->
                       <h3><a href='' data-zoom='18' data-position='37.648598,-84.952'>Dr. Polk House<br><span class="accordion-county">Boyle County</span></a><hr class="top"></h3>
-                      <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Indian Old Fields -->
                       <h3><a href='' data-zoom='18' data-position='37.894547,-84.277290'>Indian Old Fields<br><span class="accordion-county">Clark County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Peoples Bank -->
                       <h3><a href='' data-zoom='18' data-position='38.047015,-84.503161'>People's Bank + Other Modernist Structures<br><span class="accordion-county">Fayette County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Old YMCA -->
                       <h3><a href='' data-zoom='18' data-position='38.195781,-84.879039'>The Old YMCA<br><span class="accordion-county">Franklin County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">    
                       </div>
+
+                      <!-- Blanton-Crutcher Farm -->
                       <h3><a href='' data-zoom='18' data-position='38.159872,-84.820387'>Blanton-Crutcher Farm<br><span class="accordion-county">Franklin County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">   
                       </div>
+
+                      <!-- Handy House -->
                       <h3><a href='' data-zoom='18' data-position='38.398416,-84.285669'>The Handy House (aka Ridgeway)<br><span class="accordion-county">Harrison County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Court Row -->
                       <h3><a href='' data-zoom='18' data-position='37.881086,-84.572737'>Court Row<br><span class="accordion-county">Jessamine County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Downtown Richmond -->
                       <h3><a href='' data-zoom='18' data-position='37.747858,-84.294475'>Downtown Richmond<br><span class="accordion-county">Madison County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">        
                       </div>
+
+                      <!-- Walnut Hall -->
                       <h3><a href='' data-zoom='18' data-position='37.834408,-84.824225'>Walnut Hall<br><span class="accordion-county">Mercer County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Choctaw Indian Academy -->
                       <h3><a href='' data-zoom='18' data-position='38.231948,-84.634176'>Choctaw Indian Academy<br><span class="accordion-county"><span class="accordion-county">Scott County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom">
                       </div>
+
+                      <!-- Versailles High School -->
                       <h3><a href='' data-zoom='18' data-position='38.051808,-84.724642'>Versailles High School<br><span class="accordion-county"><span class="accordion-county">Woodford County</span></a><hr class="top"></h3>
-                      <div>
-                        <p></p><hr class="bottom">
+                      <div>     
+                        <div class="accordion-fig-box">
+                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                        </div>
+                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-list-head'>Further Reading</p>
+                        <ul class='accordion-text accordion-list'>
+                          <li>Resource 1</li>
+                          <li>Resource numero dos</li>
+                          <li>Oh look another resource!</li>
+                        </ul>
+                        <hr class="bottom"> 
                       </div>
                 </div>    
             </div>
