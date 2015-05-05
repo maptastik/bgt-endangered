@@ -10,6 +10,8 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
     <link rel="stylesheet" href="css/leaflet-sidebar.css" />
     <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/style.css" />
     
     <!-- Load jQuery UI -->
@@ -27,6 +29,7 @@
         });
       });
     </script>
+    
 </head>
 <body>
     <!-- Add a nice responsive sidebar using the sidebar-2 plugin -->
@@ -52,15 +55,13 @@
                       <h3><a href='' data-zoom='18' data-position='38.137791,-84.298698'>Cedar Grove<br><span class="accordion-county">Bourbon County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <img src='./img/placeholder.jpg' alt='placeholder'class="accordion-img"/>
                           <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
                         </div>
-                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
+                        <p class='accordion-text'>The Bluegrass Trust writes, "[A]lso known as Brooklawn Farm, [Cedar Grove] has lost several significant early outbuildings." While currently vacant, this early 19th century building has undergone recent renovations.</p>
                         <p class='accordion-list-head'>Further Reading</p>
                         <ul class='accordion-text accordion-list'>
-                          <li>Resource 1</li>
-                          <li>Resource numero dos</li>
-                          <li>Oh look another resource!</li>
+                          <li><a href="https://www.facebook.com/HistoricBrooklawnFarm/info" target="_blank">Historic Brooklawn Farm Facebook Page</a></li>
                         </ul>
                         <hr class="bottom">                      
                       </div>
@@ -69,16 +70,16 @@
                       <h3><a href='' data-zoom='18' data-position='38.282476,-84.241454'>John &amp; John T. Redmon House<br><span class="accordion-county">Bourbon County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <img src='./img/placeholder.jpg' alt='placeholder'class="accordion-img"/>
                           <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
                         </div>
-                        <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
-                        <p class='accordion-list-head'>Further Reading</p>
+                        <p class='accordion-text'>Dating back to 1818, the currently vacant John &amp; John T. Redmon House has undergone renovations throughout its existence. The Bluegrass Trust notes that the Redmon House " has a steep roof more often found in Virginia than Kentucky and has lost its original one-story wings."</p>
+                        <!-- <p class='accordion-list-head'>Further Reading</p>
                         <ul class='accordion-text accordion-list'>
                           <li>Resource 1</li>
                           <li>Resource numero dos</li>
                           <li>Oh look another resource!</li>
-                        </ul>
+                        </ul> -->
                         <hr class="bottom">                        
                       </div>
 
@@ -103,7 +104,7 @@
                       <h3><a href='' data-zoom='18' data-position='37.648598,-84.952'>Dr. Polk House<br><span class="accordion-county">Boyle County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <img src='./img/bgt-polk.jpg' alt='Dr. Polk House'class="accordion-img"/>
                           <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
                         </div>
                         <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
@@ -134,10 +135,10 @@
                       </div>
 
                       <!-- Peoples Bank -->
-                      <h3><a href='' data-zoom='18' data-position='38.047015,-84.503161'>People's Bank + Other Modernist Structures<br><span class="accordion-county">Fayette County</span></a><hr class="top"></h3>
+                      <h3><a href='' data-zoom='18' data-position='38.047015,-84.503161'>Peoples Bank + Other Modernist Structures<br><span class="accordion-county">Fayette County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <img src='./img/bgt-peoples-bank.jpg' alt='Peoples Bank'class="accordion-img"/>
                           <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
                         </div>
                         <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
@@ -236,11 +237,11 @@
                       </div>
 
                       <!-- Walnut Hall -->
-                      <h3><a href='' data-zoom='18' data-position='37.834408,-84.824225'>Walnut Hall<br><span class="accordion-county">Mercer County</span></a><hr class="top"></h3>
+                      <h3><a href='' data-zoom='18' data-position='37.747858,-84.294475'>Walnut Hall<br><span class="accordion-county">Mercer County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
-                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                          <img src='./img/bgt-walnut-hall1.jpg' alt='Walnut Hall' class="accordion-img"/>
+                          <p class="accordion-img-caption">Walnut Hall <em>Source:<a href="http://exploreuk.uky.edu/catalog/xt7d513tw53v_1035_1/details" target="_blank">University of Kentucky Special Collections</a></em></p>
                         </div>
                         <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
                         <p class='accordion-list-head'>Further Reading</p>
@@ -249,14 +250,14 @@
                           <li>Resource numero dos</li>
                           <li>Oh look another resource!</li>
                         </ul>
-                        <hr class="bottom">
+                        <hr class="bottom">        
                       </div>
 
                       <!-- Choctaw Indian Academy -->
-                      <h3><a href='' data-zoom='18' data-position='38.231948,-84.634176'>Choctaw Indian Academy<br><span class="accordion-county"><span class="accordion-county">Scott County</span></a><hr class="top"></h3>
+                      <h3><a href='' data-zoom='18' data-position='37.747858,-84.294475'>Choctaw Indian Academy<br><span class="accordion-county">Scott County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
+                          <img src='./img/bgt-choctaw.jpg' alt='Choctaw Indian Academy'class="accordion-img"/>
                           <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
                         </div>
                         <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
@@ -266,15 +267,15 @@
                           <li>Resource numero dos</li>
                           <li>Oh look another resource!</li>
                         </ul>
-                        <hr class="bottom">
+                        <hr class="bottom">        
                       </div>
 
                       <!-- Versailles High School -->
                       <h3><a href='' data-zoom='18' data-position='38.051808,-84.724642'>Versailles High School<br><span class="accordion-county"><span class="accordion-county">Woodford County</span></a><hr class="top"></h3>
                       <div>     
                         <div class="accordion-fig-box">
-                          <img src='./img/bgt-peoples-bank.jpg' alt='test image'class="accordion-img"/>
-                          <p class="accordion-img-caption">What the thing is called. <em>Source:</em></p>
+                          <img src='./img/bgt-vhs.jpg' alt='test image'class="accordion-img"/>
+                          <p class="accordion-img-caption">Versailles High School, <em>Source: <a href="http://exploreuk.uky.edu/catalog/xt7x696zwx82_1_4705/details" target="_blank">University of Kentucky Special Collections</a></em></p>
                         </div>
                         <p class='accordion-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium tempus lorem in tempor. Vestibulum eu pharetra leo. Vestibulum vulputate justo tincidunt tellus posuere posuere. Cras arcu nibh, molestie quis lectus non, consectetur rutrum libero. Praesent tincidunt turpis vel risus lacinia placerat. Integer volutpat eleifend tellus. Nam sed ante nec odio varius porta. Nullam elementum, ante sed sagittis condimentum, dolor enim varius felis, sit amet luctus lectus arcu non dolor.</p>
                         <p class='accordion-list-head'>Further Reading</p>
@@ -326,6 +327,7 @@
     <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
     <script src="js/leaflet-sidebar.js"></script>
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
     
     <!-- Mapping stuff -->
     <script>
@@ -389,6 +391,4 @@
         event.preventDefault();
     });
     </script>
-
-</body>
 </html>
