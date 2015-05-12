@@ -41,6 +41,8 @@ Peter Brackney, ["'Court Row' now considered eleventh-hour historic site"](http:
 
 [Friends of Ridgeway](http://www.friendsofridgeway.org/)
 
+Peter Brackney, ["ACTION ALERT: Critical Meeting Tonight (May 12) Will Decide Fate of Harrison County's Ridgeway"](http://www.kaintuckeean.com/2015/05/action-alert-critical-meeting-tonight.html), *Kaintuckeean*, May 2015.
+
 #### *Indian Old Fields* - Clark County
 
 Elbon, David C. ["Eskippathiki"](http://www.kyatlas.com/ky-eskippathiki.html). [Kentucky Atlas & Gazetteer](http://www.kyatlas.com/).
