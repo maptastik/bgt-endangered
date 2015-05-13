@@ -12,7 +12,7 @@ The Bluegrass Trust writes, "[A]lso known as Brooklawn Farm, [Cedar Grove] has l
 
 Dating back to 1818, the currently vacant John &amp; John T. Redmon House has undergone renovations throughout its existence. The Bluegrass Trust notes that the Redmon House " has a steep roof more often found in Virginia than Kentucky and has lost its original one-story wings."
 
-> a steep roof more often found in Virginia than Kentucky and has lost its original one-story wings.
+> The circa 1818 John &amp; John T. Redmon House has a steep roof more often found in Virginia than Kentucky and has lost its original one-story wings.
 
 ## Citizens National Bank
 
