@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English:400,400italic);
 
 body, * {
 	padding: 0;
 	margin: 0;
 }
 body, html, #map, #accordion {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'IM Fell English', sans-serif;
 	height: 100%
 }
 
@@ -20,7 +21,9 @@ body, html, #map, #accordion {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'IM Fell English SC', serif;
+	font-weight: 400;
+	font-style: italic;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -38,7 +41,7 @@ p {
 	margin-bottom: 10px;
 	font-size: 1em;
 	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'IM Fell English', sans-serif;
 }
 p.note{
 	margin-top: 2.5px;
@@ -65,10 +68,10 @@ hr.bottom {
 }
 
 #accordion>h3 {
-	font-size: 0.85em;
+	font-size: 1em;
 }
 .accordion-county {
-	font-size: 0.75em;
+	font-size: 1em;
 	font-style: italic;
 }
 .ui-state-default, .ui-widget-content {
@@ -100,24 +103,38 @@ hr.bottom {
 .accordion-img-caption {
 	font-size: 0.5em;
 	font-weight: normal;
+	font-style: normal;
 	margin-top: -3px;
 	margin-bottom: 0;
 }
 .accordion-text {
-	font-size: 0.5em;
-	font-weight: normal;
+	font-size: 0.75em;
+	font-weight: 400;
+	font-style: italic;
 	margin-bottom: 5px;
 }
 .accordion-list-head {
-	font-family: 'Roboto Slab', serif;
-	font-size: 0.65em;
-	font-weight: bold;
+	font-family: 'IM Fell English SC';
+	font-size: 0.9em;
+	font-style: normal;
 	margin-top: 0;
 	margin-bottom: 0;
 
 }
 .accordion-list>li:before{
 	content: '- '
+}
+
+.accordion-list {
+	font-style: normal;
+}
+
+.accordion-list>li>a {
+	text-decoration: none;
+}
+
+.accordion-list>li>a:hover {
+	text-decoration: underline;
 }
 
 .text-center {
